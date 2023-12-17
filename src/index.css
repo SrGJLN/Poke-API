@@ -31,3 +31,17 @@ nav {
   align-items: center;
   gap: 10px;
 }
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-found {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

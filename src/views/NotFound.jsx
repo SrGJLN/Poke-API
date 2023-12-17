@@ -1,19 +1,19 @@
-import React from 'react'
-import { Link } from "react-router-dom";
-import notfound from '../assets/imgs/notfound.png'
+import React from "react";
+import notfound from "../assets/imgs/notfound.png";
 
 const NotFound = () => {
   return (
     <>
-    <div className="img-found">
-          <img className='notfound'
-              src={notfound}
-              alt="not-found" />
-        <Link to="/" className='text-white'>Home</Link>
-    </div>
-    
+      <div className="img-found">
+        <img
+          className="notfound"
+          style={{ width: "30rem" }}
+          src={notfound}
+          alt="not-found"
+        />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;
