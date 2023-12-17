@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+}
+
+.active {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.pokeball {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
