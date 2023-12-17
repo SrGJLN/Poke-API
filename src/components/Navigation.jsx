@@ -15,11 +15,11 @@ const Navigation = () => {
           </Navbar.Text>
         </Navbar.Collapse>
         <Nav className="ms-3">
-        <NavLink to="/" className={activeClass}>
+        <NavLink to="/" className={activeClass} style={{ margin: "0.2rem" }}>
           Home
         </NavLink>
         
-        <NavLink to="/pokemons" className={activeClass}>
+        <NavLink to="/pokemons" className={activeClass} style={{ margin: "0.2rem" }}>
           Pokemones
         </NavLink>
         </Nav>
