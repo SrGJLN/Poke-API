@@ -58,7 +58,7 @@ const PokeDetails = () => {
             </div>
           </div>
         </div>
-      )) || <p>Cargando Data</p>}
+      ))}
     </>
   );
 };
